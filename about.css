@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+ul,ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin-block: 0;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+.container {
+  width: 1240px;
+  padding-inline: 20px;
+  margin-inline: auto;
+}
+
+header {
+  padding-block: 20px;
+  background-color: rgb(39, 103, 103);
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 25px;
+}
+
+.nav-link {
+  display: inline-block;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: black;
+  transition: all 0.2s;
+}
+
+
+.nav-link:hover {
+  background-color: black;
+  color: #fff;
+}
+
+
+.header-logo {
+  color: #fff;
+  font-size: 30px;
+}
+
+
+/* about section start */
+
+.about {
+  padding-block: 100px;
+  background-color: aqua;
+}
+.about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.wrapper-about-title {
+  width: 600px;
+}
+.about-title {
+  font-size: 48px;
+  margin-block-end: 20px;
+}
+.about-text {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.dastur {
+  padding-block: 100px;
+  background-color: orange;
+}
+
+.dastur-title {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  margin-block-end: 40px;
+}
+
+.wrapper-dastur-icon {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.wrapper-brands {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 40px;
+  font-size: 20px;
+  color: #fff;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+
+}
+.wrapper-brands:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+} 
+
+.wrapper-brands i {
+  font-size: 100px;
+  margin-block-end: 10px;
+}
+
+.yutuqlarim {
+  padding-block: 100px;
+  background-color: purple;
+}
+
+.yutuqlarim-title {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  margin-block-end: 40px;
+}
+
+.wrapper-yutuqlarim {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.wrapper-yutuqlarim img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.yutuqlarim-text {
+  font-size: 25px;
+  color: #fff;
+ 
+  margin-block-start: 10px;
+  line-height: 1.6;
+}
+
+
+
+footer {
+  padding-block: 50px;
+  background-color: blue;
+}
+
+.footer-flex {
+  color: #fff;
+  display: flex;
+  column-gap: 250px;
+}
+
+.footer-flex p {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+
+
